@@ -6,11 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/LEGO/Scenes/LEGO Tutorial.unity
-    guid: c117ceea613454843a1d1c28c25d7a94
-  - enabled: 1
     path: Assets/LEGO/Scenes/Menu Intro.unity
     guid: 77504b30d92956e4ab45b9e740f2d454
+  - enabled: 1
+    path: Assets/LEGO/Scenes/Main.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/LEGO/Scenes/Microgame - Platformer (Elias).unity
+    guid: 866b62f963cfc6d47a98c3a944e318d3
   - enabled: 1
     path: Assets/LEGO/Scenes/Menu Win.unity
     guid: 05cfb1c697d1a4d22b5edccf653ebd94
