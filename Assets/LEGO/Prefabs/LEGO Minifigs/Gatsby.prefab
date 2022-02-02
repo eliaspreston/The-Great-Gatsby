@@ -1231,7 +1231,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7070699751003726865}
-  - component: {fileID: 8303861907063908772}
+  - component: {fileID: 2691917834316264885}
   - component: {fileID: 7070699751003726864}
   - component: {fileID: 7070699751003726867}
   - component: {fileID: 7070699751003726869}
@@ -1246,7 +1246,7 @@ GameObject:
   - component: {fileID: 6761681219612528010}
   - component: {fileID: 2696074276946883241}
   m_Layer: 9
-  m_Name: One Button Pirate 1
+  m_Name: Gatsby
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1268,7 +1268,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8303861907063908772
+--- !u!114 &2691917834316264885
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1277,14 +1277,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 7070699751003726857}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d4a0c2b84621af40a168aca956183f5, type: 3}
+  m_Script: {fileID: 11500000, guid: 652629fecff6a4c8fa0a985e628de942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxForwardSpeed: 5
-  maxBackwardSpeed: 4
-  acceleration: 20
-  maxRotateSpeed: 150
-  rotateAcceleration: 600
+  maxForwardSpeed: 12
+  maxBackwardSpeed: 6
+  acceleration: 40
+  maxRotateSpeed: 450
+  rotateAcceleration: 500
   jumpSpeed: 20
   gravity: 40
   stepAudioClips:
@@ -1296,59 +1296,18 @@ MonoBehaviour:
   doubleJumpAudioClip: {fileID: 8300000, guid: 542490ca55814441981ef88f5d1f2dc6, type: 3}
   landAudioClip: {fileID: 8300000, guid: a12caccc734354aa09f7d2a412925ac2, type: 3}
   explodeAudioClip: {fileID: 8300000, guid: b9b607b06267c4394b07c19523c455f1, type: 3}
-  inputType: 0
+  inputType: 1
   inputEnabled: 1
   maxJumpsInAir: 1
-  leftArmTip: {fileID: 7070699752276613015}
-  rightArmTip: {fileID: 7070699752093083849}
-  leftLegTip: {fileID: 7070699752632617476}
-  rightLegTip: {fileID: 7070699750935797963}
-  head: {fileID: 7070699751091222013}
-  startMovementType: 0
-  startRotationType: 0
-  pressedMovementType: 0
-  releasedMovementType: 0
-  pressedRotationType: 0
-  releasedRotationType: 0
-  startSetting:
-    moveDirection: 0
-    rotateDirection: 0
-    moveMaxSpeed: 10
-    moveDistance: 10
-    moveAcceleration: 20
-    rotateSpeed: 180
-    rotateAngle: 90
-    jump: 0
-    moveAlternate: 0
-    rotateAlternate: 0
-    previousMoveTarget: 0
-    previousRotateTarget: 0
-  pressedSetting:
-    moveDirection: 0
-    rotateDirection: 0
-    moveMaxSpeed: 10
-    moveDistance: 10
-    moveAcceleration: 20
-    rotateSpeed: 180
-    rotateAngle: 90
-    jump: 0
-    moveAlternate: 0
-    rotateAlternate: 0
-    previousMoveTarget: 0
-    previousRotateTarget: 0
-  releasedSetting:
-    moveDirection: 0
-    rotateDirection: 0
-    moveMaxSpeed: 10
-    moveDistance: 10
-    moveAcceleration: 20
-    rotateSpeed: 180
-    rotateAngle: 90
-    jump: 0
-    moveAlternate: 0
-    rotateAlternate: 0
-    previousMoveTarget: 0
-    previousRotateTarget: 0
+  leftArmTip: {fileID: 3709975654328116765, guid: 1f174dd798c1d408a9b88ca831df4ac4,
+    type: 3}
+  rightArmTip: {fileID: 3058314678332071575, guid: 1f174dd798c1d408a9b88ca831df4ac4,
+    type: 3}
+  leftLegTip: {fileID: 8677362680590255434, guid: 1f174dd798c1d408a9b88ca831df4ac4,
+    type: 3}
+  rightLegTip: {fileID: 5795802193065937343, guid: 1f174dd798c1d408a9b88ca831df4ac4,
+    type: 3}
+  head: {fileID: 9119843429246903751, guid: 1f174dd798c1d408a9b88ca831df4ac4, type: 3}
 --- !u!95 &7070699751003726864
 Animator:
   serializedVersion: 3
