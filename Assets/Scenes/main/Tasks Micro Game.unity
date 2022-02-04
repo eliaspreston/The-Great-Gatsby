@@ -267,9 +267,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 248772969}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8e94c38c13ab0a42988b7ec061ee4e8, type: 3}
+  m_Script: {fileID: 11500000, guid: 182ad7eb46e6c6f4c86c45407e51a89f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gotTask: 0
+  taskType: 0
+  hasTaskItem: 0
 --- !u!1 &358357027
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,12 +316,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 358357027}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 182ad7eb46e6c6f4c86c45407e51a89f, type: 3}
+  m_Script: {fileID: 11500000, guid: 038a613915c63f849b522b837e093624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gotTask: 0
-  taskType: 0
-  hasTaskItem: 0
+  myType: 1
+  objectiveManager: {fileID: 248772971}
 --- !u!65 &358357030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -730,7 +732,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 88e343f227eb7264a89f07b23f31281c, type: 2}
+  - {fileID: 2100000, guid: 71c030c4394cbe849be1b55c8503c7cf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -773,7 +775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myType: 2
-  objectiveManager: {fileID: 358357029}
+  objectiveManager: {fileID: 0}
 --- !u!1 &647738855
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,8 +822,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 038a613915c63f849b522b837e093624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myType: 1
-  objectiveManager: {fileID: 358357029}
+  myType: 3
+  objectiveManager: {fileID: 0}
 --- !u!65 &647738858
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -854,7 +856,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 71c030c4394cbe849be1b55c8503c7cf, type: 2}
+  - {fileID: 2100000, guid: 88e343f227eb7264a89f07b23f31281c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1037,17 +1039,17 @@ PrefabInstance:
     - target: {fileID: 8798865682151034563, guid: 7760cce19732e194e9bf2b10175a5eee,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.5157595
+      value: -0.51575947
       objectReference: {fileID: 0}
     - target: {fileID: 8798865682151034563, guid: 7760cce19732e194e9bf2b10175a5eee,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.18819687
+      value: 0.18819688
       objectReference: {fileID: 0}
     - target: {fileID: 8798865682151034563, guid: 7760cce19732e194e9bf2b10175a5eee,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.66615707
+      value: -0.66615695
       objectReference: {fileID: 0}
     - target: {fileID: 8798865682151034563, guid: 7760cce19732e194e9bf2b10175a5eee,
         type: 3}
@@ -1386,7 +1388,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
-  m_LocalRotation: {x: 0.14873004, y: 0.000000013696358, z: -0.0000000020599717, w: 0.9888779}
+  m_LocalRotation: {x: 0.14873005, y: -0.000000025239464, z: 0.0000000037960874, w: 0.98887783}
   m_LocalPosition: {x: 0, y: 7.310858, z: -14.006856}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
