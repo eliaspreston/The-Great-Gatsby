@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/main/HUB.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/main/Shooting.unity
+    guid: 06770e25917f437418ff951d735359e2
+  - enabled: 1
+    path: Assets/Scenes/main/Hannahs Microgame.unity
+    guid: 71a5adaf690a2fe45bccaaededad32c9
+  - enabled: 1
+    path: Assets/Scenes/main/Platformer.unity
+    guid: 866b62f963cfc6d47a98c3a944e318d3
+  - enabled: 1
+    path: Assets/Scenes/main/Menu Lose.unity
+    guid: 97d7269acefb99e48abc12446e974c69
   m_configObjects: {}

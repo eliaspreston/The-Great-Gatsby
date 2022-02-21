@@ -18,7 +18,11 @@ public class SceneLoader2 : MonoBehaviour
     {
         //Debug.Log("scene load test");
 
-        if (doorType == 2)
+        if (doorType == 1)
+        {
+            SceneManager.LoadScene(1);
+        }
+        else if (doorType == 2)
         {
             SceneManager.LoadScene(2);
         }
