@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 43534952}
   - component: {fileID: 43534951}
   m_Layer: 0
-  m_Name: LEGO_logo.svg
+  m_Name: LEGO_logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -174, y: 58.5}
+  m_AnchoredPosition: {x: -257.9, y: 53.9}
   m_SizeDelta: {x: 32, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &43534951
