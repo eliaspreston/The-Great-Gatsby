@@ -984,7 +984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a98779c1afa4243edb74ddfb76dfb6dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: LEGO Tutorial
+  sceneName: HUB
 --- !u!114 &1054185002
 MonoBehaviour:
   m_ObjectHideFlags: 0
