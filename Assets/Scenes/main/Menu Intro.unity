@@ -369,31 +369,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: Play
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 4b8dc171ea53e4e9a9888deeadb024a1,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &351116852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -722,7 +697,7 @@ PrefabInstance:
     - target: {fileID: 5340715976001950307, guid: 6b23e1fc73ddf414eb915223522f6e6c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5340715976001950307, guid: 6b23e1fc73ddf414eb915223522f6e6c,
         type: 3}
@@ -741,8 +716,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5340715976001950307, guid: 6b23e1fc73ddf414eb915223522f6e6c,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340715976001950307, guid: 6b23e1fc73ddf414eb915223522f6e6c,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340715976001950307, guid: 6b23e1fc73ddf414eb915223522f6e6c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5340715976001950307, guid: 6b23e1fc73ddf414eb915223522f6e6c,
         type: 3}
@@ -1180,8 +1165,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1054185001}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: LoadPreviousScene
+        m_TargetAssemblyTypeName: Unity.LEGO.UI.LoadSceneButton, Unity.LEGO.UI
+        m_MethodName: LoadHub
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
