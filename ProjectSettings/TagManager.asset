@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Projectile
   - TutorialRequirement
+  - objectiveManager
+  - gatsbyHitbox
   layers:
   - Default
   - TransparentFX

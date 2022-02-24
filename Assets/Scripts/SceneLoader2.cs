@@ -8,9 +8,7 @@ public class SceneLoader2 : MonoBehaviour
     //menu is 0
     //hub is 1
 
-    //platformer is level 2;
-    //race is 3;
-    //party  is 4;
+
 
     public int doorType;
 
@@ -20,19 +18,19 @@ public class SceneLoader2 : MonoBehaviour
 
         if (doorType == 1)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
         else if (doorType == 2)
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
         else if (doorType == 3)
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(4);
         }
         else
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(0);
         }
     }
 }
